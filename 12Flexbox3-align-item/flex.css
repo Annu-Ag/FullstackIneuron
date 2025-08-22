@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center; 
+    /* top to down */
+    height: 500px;
+}

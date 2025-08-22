@@ -1,0 +1,25 @@
+*{
+    color: #fff;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+ background: linear-gradient(to right, #4ac29a, #bdfff3);
+ font-family: sans-serif;
+ margin: 0;
+ min-height: 100vh;
+ font-size: 20px;
+}
+
+.container>div{
+     background-color: rgb(44, 171, 185);
+    border: 1px solid #fff;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container>div:hover{
+ 
+        background-color: rgba(18, 215, 74, 0.2);
+}

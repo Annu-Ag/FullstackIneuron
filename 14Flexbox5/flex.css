@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    width: 800px;
+}
+.container>div{
+    flex-grow: 1;
+    /* ratio */
+}
+.container>div:nth-child(2){
+    flex-grow: 2; 
+    /* more the ratio more priority first this will get spacw then rest */
+}

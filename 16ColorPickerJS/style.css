@@ -1,0 +1,38 @@
+body{
+    background: rgb(66,66,66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 44px;
+    text-align: center;
+    color: aliceblue;
+}
+.color-hover{
+    width: 400px;
+    height:200px;
+    display: flex;
+    flex-direction: row;
+    .color{
+         width: 100px;
+    height:100px;
+    }
+}
+
+  
+.pink{
+    background-color: pink;
+
+}
+.red{
+    background-color: red;
+}
+.violet{
+    background-color: violet;;
+}
+.cyan{
+    background-color: cyan;
+}
+.orange{
+    background-color: orange;
+}
